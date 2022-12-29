@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  height: 100vh;
+  background: radial-gradient(
+    circle,
+    rgba(220, 174, 238, 1) 0%,
+    rgba(148, 233, 190, 1) 100%
+  );
+}
+
+.navbar {
+  background-color: #395b64;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.btn-danger {
+  background-color: red !important;
+  transition: all 1s;
+}
+
+.btn-danger:hover {
+  opacity: 0.6;
+}
